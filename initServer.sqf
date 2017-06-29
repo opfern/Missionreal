@@ -1,0 +1,1 @@
+{ _x addEventHandler ["killed", {(_this select 2) execVM "scripts\moneysys\killed.sqf"}]; }forEach playableUnits - allPlayers;

@@ -1,0 +1,1 @@
+player addEventHandler ["killed", {(_this select 2) execVM "scripts\moneysys\killed.sqf"}];
